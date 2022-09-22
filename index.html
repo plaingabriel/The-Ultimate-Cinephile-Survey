@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - The Ultimate Cinephile Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<body>
+	<h1 id="title">Do you have good taste in movies?</h1>
+	<p id="description">A short survey designed to show me your movies preferences</p>
+	<form id="survey-form">
+		<label id="name-label"> Name
+			<input id="name" type="text" name="name" placeholder="Enter your name" required />
+		</label>
+		<label id="email-label"> Email
+			<input id="email" type="email" name="email" placeholder="Enter your email" required />
+		</label>
+		<label id="number-label"> Age (Optional)
+			<input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+		<label id="dropdown-label"> What do you like most about a movie?
+			<select id="dropdown" required>
+				<option disabled selected value>(Select a option)</option>
+				<option>An engaging storytelling</option>
+				<option>Intense suspense</option>
+				<option>A passionate romance
+				</option>
+				<option>A real-life based drama</option>
+				<option>An epic drama</option>
+				<option>An unexpected plot twist</option>
+				<option>An open-ended</option>
+				<option>A dark comedy</option>
+				<option>A horror story</option>
+				<option>Others...</option>
+			</select>
+		</label>
+		<label>
+			What is your gender?</label>
+		<label><input type="radio" name="gender" value="gender" class="inline" required />Male</label>
+		<label><input type="radio" name="gender" value="gender" class="inline" required />Female</label>
+		<label><input type="radio" name="gender" value="gender" class="inline" required />Non-binary</label>
+		<label><input type="radio" name="gender" value="gender" class="inline" required />Prefer not to say</label>
+		<label id="movie-list">
+			From the following list of movies, which ones are your favorites?
+		</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />The Godfather</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />The Godfather: Part II</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Forrest Gump</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Baby Driver</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Django: Unchained</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Inglorious Bastards</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />The Godfather</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Promising Young Woman</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Three Billboards Outside Ebbing Missouri</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Chicago</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Birdman</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />American Beauty</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Rango</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />1922</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Memento</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Knives Out</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Parasite</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Whiplash</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />The Truman Show</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Jaws</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />La La Land</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />A Quiet Place</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />His House</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Don't Breathe</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Get Out</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Scent of a Woman</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />Your Name</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />The Mitchells vs The Machines</label>
+		<label><input type="checkbox" value="checkbox" class="inline" />12 Angry Men
+		</label>
+		<label id="suggest-label">Do you want to suggest a film?</label>
+		<label><textarea id="suggestions" placeholder="Enter your suggestion here" rows="5"></textarea></label>
+		<label><button id="submit" type="submit">Submit</button></label>
+	</form>
+</body>
+</body>
+</html>
