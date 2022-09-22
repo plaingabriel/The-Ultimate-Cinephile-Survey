@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 :root {
-	--main-font-size: 1.4rem;
+	--main-font-size: 1.6rem;
 }
 
 html {
@@ -35,7 +35,7 @@ p {
 form {
 	width: 60vw;
 	max-width: 600px;
-	min-width: 200px;
+	min-width: 300px;
 	margin: 30px auto;
 	background-color: rgba(147, 47, 21, 0.7);
 	border-radius: 10px;
@@ -71,7 +71,7 @@ button[type="submit"] {
 	border-color: red;
 	background-color: red;
 	color: white;
-	font-size: 1.6rem;
+	font-size: var(--main-font-size);
 	cursor: pointer;
 	width: 60%;
 	min-width: 200px;
@@ -95,7 +95,7 @@ button[type="submit"] {
 
 @media only screen and (max-width: 600px) {
 	body {
-		padding: 0;
+		padding: 0 10px;
 	}
 	h1 {
 		font-size: 2rem;
